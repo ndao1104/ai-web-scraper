@@ -3,10 +3,13 @@ from bs4 import BeautifulSoup
 from selenium.webdriver import Remote, ChromeOptions
 from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnection
 from selenium.webdriver.common.by import By
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # Load variables from .env
 
 # Enter your credentials - the zone name and password
-BRIGHT_DATA_API_KEY = ''
-
+BRIGHT_DATA_API_KEY = os.getenv("API_KEY")
 
 def scrape_website(website):
     print("Connecting to Scraping Browser...")
