@@ -1,0 +1,15 @@
+streamlit~=1.39.0
+langchain~=0.3.4
+langchain_ollama
+selenium~=4.25.0
+beautifulsoup4~=4.12.3
+lxml
+html5lib
+python-dotenv
+pip~=24.2
+attrs~=24.2.0
+PySocks~=1.7.1
+protobuf~=5.28.3
+pillow~=10.4.0
+langchain-core~=0.3.13
+requests~=2.32.3
